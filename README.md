@@ -1,4 +1,4 @@
 -Landing Page baseada nos projetos dos cursos Danki Code com algumas alterações para estudos; <br>
--Design não-responsivo;
--Sua criação foi utilizada meramente para fins didáticos;
+-Design não-responsivo;<br>
+-Sua criação foi utilizada meramente para fins didáticos;<br>
 -Foram utilizados recursos do Bootstrap 5.0.
