@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+html, body{
+    height: 100%;
+}
+
+/*Limpar flutuações*/
+.clear{
+    clear: both;
+
+}
+
+
+/*Contexto do site de 1200px*/
+.center{
+    width: 1200px;
+    margin: 0 auto;
+   /*border: 1px solid red; --> Para se localizar na página*/
+}
+
+
+/*Cabeçalho*/
+header{
+    height: 80px;
+    min-width: 1200px;
+}
+
+/*Logo lista*/
+img{
+    width: 70px;
+    height: 70px;
+    margin-top: 4px;
+}
+
+
+/*Menu com a classe list*/
+.list{
+    display: inline-block;
+}
+
+.list ul{
+    margin-left: 80px;
+    padding: 0;
+}
+    
+.list ul li{
+    display: inline-block;
+    padding: 5px 16px;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+
+/*Efeito Hover em cada opção do menu*/
+.list ul li:hover{
+    background-color: #5f6670;
+}
+
+/*Estilizando palavras menu*/
+.list ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+}
+/**/
+
+
+.bg-container > .center{
+    height: 100%;
+}
+
+/*Imagem de fundo*/
+.bg-container{
+    width: 100%;
+    min-width: 1200px;
+    height: 85%;
+    background-image: url('https://images.pexels.com/photos/3183198/pexels-photo-3183198.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: 100% 100%;
+    background-size: cover;
+}
+/**/
+
+/*Formulário com classe form usando bootstrap*/
+.form{
+    padding: 10px 14px;
+    border: 6px solid #adadad;
+    float: right;
+    width: 400px;
+    height: 590px;
+    position: relative;
+    top: -15px;
+    background-color: white;
+}
+
+.form h4{
+    padding: 10px 15px;
+    font-size: 25px;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.form-group{
+    padding: 10px 0;
+    margin-top: 10px;
+}
+
+.form label, .form p{
+    color: #75757D;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.form p{
+    margin-top: 20px;
+}
+/**/
+
+
+/*Elementos com  a classe button - Botão*/
+.button{
+    margin-top: 35px;
+    text-align: center;
+    
+}
+
+.button button{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    cursor: pointer;
+}
+/**/
+
+/*Elementos com a classe box - lista*/
+.box{
+    display: inline-block;
+    width: 500px;
+    height: 260px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+}
+
+.box nav ul{
+    list-style-type: none;
+    padding: 30px;
+    list-style-position: inside
+}
+
+.box nav ul li{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+/**/
+
+
+/*Elementos com a classe .bg-container2*/
+.bg-container2{
+    padding: 50px 0;
+    /*border: 2px solid red;*/
+    text-align: center;
+    height: 300px;
+    background-color: rgb(170, 170, 170);
+    min-width: 1200px;
+}
+
+.bg-container2 h4{
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.bg-container2 p{
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+/**/
+
+/*Elemento com a classe arrow - seta*/
+.arrow{
+    width: 40px;
+    height: 40px;
+    background-image: url('img/Arrows-Down-Circular-icon.png');
+    background-size: 100% 100%;
+    position: relative;
+    left: 50%;
+    margin-left: -25px;
+    top: 25px;
+}
+/**/
+
+/*Elementos com a classe .bg-container3 contendo 3 box's*/
+.bg-container3{
+    width: 100%;
+    min-width: 1200px;
+    height: 420px;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.bg-container3 .center{ 
+    height: 100%;
+}
+
+.bg-container3 .container-text{
+    float: right;
+    width: 33.333%;
+    padding: 40px;
+    /*border: 1px solid blue;*/
+    text-align: center;
+}
+
+.bg-container3 .container-text h4{
+    font-weight: bold;
+}
+
+.bg-container3 .container-text p{
+    margin-top: 25px;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 600;
+}
+/**/
+
+
+/*Elementos com a classe footer - rodapé*/
+.footer{
+    min-width: 1200px;
+    text-align: center;
+    padding: 30px;
+    border-top: 3px solid gray;
+    height: 140px;
+    margin-top: 100px;
+}
+
+.footer h5{
+    color: gray;
+    border-top: 8px;
+    font-size: 18px;
+}
+
+/**/
